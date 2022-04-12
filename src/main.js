@@ -1,9 +1,16 @@
-const tshirtButton = document.querySelector('#menu .tshirt');
-const pantsButton = document.querySelector('#menu .pants');
-const skirtButton = document.querySelector('#menu .skirt');
-const blueButton = document.querySelector('#menu .blue');
-const yellowButton = document.querySelector('#menu .yellow');
-const pinkButton = document.querySelector('#menu .pink');
-const pants = document.querySelector('#list .');
+// Fetch the items from the JSON file
+function loadItems() {
+  return fetch('data/data.json') //
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+}
 
-function clickTshirt() {}
+// main
+loadItems()
+  .then((items) => {
+    // displayItems(items);
+    // setEventListnerers(items);
+  })
+  .catch((error) => {
+    console.log(error);
+  });

@@ -10,85 +10,28 @@
     <div class="contents">
       <header><input type="button" /></header>
       <nav id="menu">
-        <div type="button" class="tshirt">
+        <button class="imgBtn">
           <img src="img/blue_t.png" />
-        </div>
-        <div type="button" class="pants">
+        </button>
+        <button class="imgBtn">
           <img src="img/blue_p.png" />
-        </div>
-        <div type="button" class="skirt">
+        </button>
+        <button class="imgBtn">
           <img src="img/blue_s.png" />
-        </div>
-        <div type="button" class="blue">
-          <button>Blue</button>
-        </div>
-        <div type="button" class="yellow">
-          <button>Yellow</button>
-        </div>
-        <div type="button" class="pink">
-          <button>Pink</button>
-        </div>
+        </button>
+        <button class="coloBtn blue">Blue</button>
+        <button class="coloBtn yellow">Yellow</button>
+        <button class="coloBtn pink">Pink</button>
       </nav>
-      <section>
-        <ul id="list">
-          <li class="pants blue">
-            <div class="listbox">
-              <img src="img/blue_p.png" src="img
-              src="img/blue_p.png"/blue_p.png"/>
-              <div class="detail">blue, pants</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/blue_t.png" />
-              <div class="detail">blue, t-shirts</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/blue_s.png" />
-              <div class="detail">blue, skirt</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/yellow_p.png" />
-              <div class="detail">yellow, pants</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/yellow_t.png" />
-              <div class="detail">yellow, t-shirts</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/yellow_s.png" />
-              <div class="detail">yellow, skirt</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/pink_p.png" />
-              <div class="detail">pink, pants</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/pink_t.png" />
-              <div class="detail">pink, t-shirts</div>
-            </div>
-          </li>
-          <li>
-            <div class="listbox">
-              <img src="img/pink_s.png" />
-              <div class="detail">pink, skirt</div>
-            </div>
-          </li>
-        </ul>
-      </section>
+      <ul id="list">
+        <li class="listbox">
+          <img src="img/blue_p.png" alt="pants" class="item_image" />
+          <span class="detail">blue, pants</span>
+        </li>
+      </ul>
     </div>
+    <!-- html에 데이터를 담는것은 좋지 않음 -->
+    <!-- 파일, 데이터 베이스 등에 데이터를 모아놔야 함 -->
     <script src="src/main.js"></script>
   </body>
 </html>
