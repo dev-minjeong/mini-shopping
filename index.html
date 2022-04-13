@@ -8,27 +8,28 @@
   </head>
   <body>
     <div class="contents">
-      <header><input type="button" /></header>
+      <header><input class="logo" type="button" /></header>
       <nav id="menu">
         <button class="imgBtn">
-          <img src="img/blue_t.png" />
+          <img src="img/blue_t.png" data-key="type" data-value="tshirt" />
         </button>
         <button class="imgBtn">
-          <img src="img/blue_p.png" />
+          <img src="img/blue_p.png" data-key="type" data-value="pants" />
         </button>
         <button class="imgBtn">
-          <img src="img/blue_s.png" />
+          <img src="img/blue_s.png" data-key="type" data-value="skirt" />
         </button>
-        <button class="coloBtn blue">Blue</button>
-        <button class="coloBtn yellow">Yellow</button>
-        <button class="coloBtn pink">Pink</button>
+        <button class="colorBtn blue" data-key="color" data-value="blue">
+          Blue
+        </button>
+        <button class="colorBtn yellow" data-key="color" data-value="yellow">
+          Yellow
+        </button>
+        <button class="colorBtn pink" data-key="color" data-value="pink">
+          Pink
+        </button>
       </nav>
-      <ul id="list">
-        <li class="listbox">
-          <img src="img/blue_p.png" alt="pants" class="item_image" />
-          <span class="detail">blue, pants</span>
-        </li>
-      </ul>
+      <ul id="list"></ul>
     </div>
     <!-- html에 데이터를 담는것은 좋지 않음 -->
     <!-- 파일, 데이터 베이스 등에 데이터를 모아놔야 함 -->

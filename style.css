@@ -63,7 +63,7 @@ header input:hover,
   width: var(--size-button);
   height: 100%;
 }
-#menu .coloBtn {
+#menu .colorBtn {
   font-size: var(--font-size);
   width: auto;
   padding: 0 10px;
@@ -104,4 +104,7 @@ header input:hover,
 .detail {
   margin-left: var(--base-space);
   font-size: var(--font-size);
+}
+.invisible {
+  display: none;
 }
